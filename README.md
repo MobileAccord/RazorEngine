@@ -10,6 +10,7 @@ This project is searching for new maintainers, so if you want to help write on g
 https://github.com/Antaris/RazorEngine/issues/414
 Fork from https://github.com/conniey/RazorEngine/tree/updateToNetCore
 Minor fixing and fork to https://github.com/hermanho/RazorEngine/tree/updateToNetCore
+Fork to https://thomasvoth@bitbucket.org/thomasvoth/RazorEngine.git (everything from the original fork referring the Antaris is just coppied code from the first person's fork).
 
 ## Build status
 
