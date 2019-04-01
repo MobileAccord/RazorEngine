@@ -11,7 +11,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>RazorEngine.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <RootNamespace>RazorEngine</RootNamespace>
     <PackageId>RazorEngine.NetCore</PackageId>
     <AssemblyName>RazorEngine.NetCore</AssemblyName>
@@ -26,7 +26,7 @@
     <Company>RazorEngine</Company>
     <Product>RazorEngine</Product>
     <IncludeSymbols>True</IncludeSymbols>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
