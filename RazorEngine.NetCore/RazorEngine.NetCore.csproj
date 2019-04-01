@@ -9,9 +9,8 @@
     <!-- Do not generate AssemblyInfo because we are doing that with the GenerateAssemblyInfoFile target in dir.targets -->
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
+  
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>RazorEngine.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>false</SignAssembly>
     <RootNamespace>RazorEngine</RootNamespace>
     <PackageId>RazorEngine.NetCore</PackageId>
     <AssemblyName>RazorEngine.NetCore</AssemblyName>
