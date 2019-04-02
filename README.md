@@ -6,24 +6,11 @@ This project is searching for new maintainers, so if you want to help write on g
 
 *latest* documentation available on https://antaris.github.io/RazorEngine/.
 
-## Forked version
+## Forked version(s)
 https://github.com/Antaris/RazorEngine/issues/414
 Fork from https://github.com/conniey/RazorEngine/tree/updateToNetCore
 Minor fixing and fork to https://github.com/hermanho/RazorEngine/tree/updateToNetCore
-Fork to https://thomasvoth@bitbucket.org/thomasvoth/RazorEngine.git (everything from the original fork referring the Antaris is just coppied code from the first person's fork).
-
-## Build status
-
-Develop Branch (`master`)
-
-[![Build Status](https://travis-ci.org/Antaris/RazorEngine.svg?branch=master)](https://travis-ci.org/Antaris/RazorEngine)
-[![Build status](https://ci.appveyor.com/api/projects/status/39bi38wonhwolrgy/branch/master?svg=true)](https://ci.appveyor.com/project/Antaris/razorengine/branch/master)
-
-Release Branch (`releases`)
-
-[![Build Status](https://travis-ci.org/Antaris/RazorEngine.svg?branch=releases)](https://travis-ci.org/Antaris/RazorEngine)
-[![Build status](https://ci.appveyor.com/api/projects/status/39bi38wonhwolrgy/branch/releases?svg=true)](https://ci.appveyor.com/project/Antaris/razorengine/branch/releases)
-
+THIS VERSION: https://thomasvoth@bitbucket.org/thomasvoth/RazorEngine.git (everything from the original fork referring the Antaris is just coppied code from the first person's fork).
 
 ## Quickstart
 
