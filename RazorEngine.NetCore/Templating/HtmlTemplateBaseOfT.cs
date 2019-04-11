@@ -10,6 +10,7 @@ namespace RazorEngine.Templating
 
     /// <summary>
     /// Provides a base implementation of an html template with a model.
+    /// Solution based off of mao47's answer at https://stackoverflow.com/a/19434112
     /// </summary>
     [RequireNamespaces("System.Web.Mvc.Html")]
     public class HtmlTemplateBase<T> : TemplateBase<T>, IViewDataContainer
