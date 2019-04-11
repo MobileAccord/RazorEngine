@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
+	<PackageTargetFallback>portable-net451+win8</PackageTargetFallback>
     <DefineConstants>$(DefineConstants);RAZOR4</DefineConstants>
     <DefineConstants>$(DefineConstants);NO_APPDOMAIN;NO_CODEDOM;NO_CONFIGURATION;NETCORE</DefineConstants>
   </PropertyGroup>
