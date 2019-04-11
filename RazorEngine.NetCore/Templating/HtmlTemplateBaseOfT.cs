@@ -1,11 +1,13 @@
-using System;
-using System.IO;
-using System.Web.Mvc;
-
-using RazorEngine.Text;
-
 namespace RazorEngine.Templating
 {
+    using System;
+    using System.IO;
+    using System.Web.Mvc;
+
+    using Microsoft.AspNetCore.Html;
+
+    using RazorEngine.Text;
+
     /// <summary>
     /// Provides a base implementation of an html template with a model.
     /// </summary>
@@ -68,13 +70,13 @@ namespace RazorEngine.Templating
             else
             {
                 //try to cast to IHtmlString (Could be returned by Mvc Html helper methods)
-                var htmlString = value as IHtmlString;
-                if (htmlString != null) writer.Write(htmlString.ToHtmlString());
+                var htmlString = value as HtmlString;
+                if (htmlString != null) writer.Write(htmlString.Value);
                 else
                 {
                     //default implementation is to convert to RazorEngine encoded string
-                    encodedString = TemplateService.EncodedStringFactory.CreateEncodedString(value);
-                    writer.Write(encodedString);
+                    encodedString = InternalTemplateService.EncodedStringFactory.CreateEncodedString(value);
+                    writer.Write(value);
                 }
 
             }
