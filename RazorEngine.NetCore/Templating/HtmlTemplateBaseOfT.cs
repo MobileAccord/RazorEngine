@@ -2,9 +2,11 @@ namespace RazorEngine.Templating
 {
     using System;
     using System.IO;
-    using System.Web.Mvc;
-
+    
     using Microsoft.AspNetCore.Html;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+    using Microsoft.AspNetCore.Mvc.ViewFeatures;
+   
 
     using RazorEngine.Text;
 
